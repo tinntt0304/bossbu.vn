@@ -387,7 +387,7 @@ body{
 .header-login .uil-shopping-bag {
   font-size: 2rem;
   margin-top: -0.5rem;
-  position: relative;
+  position: relative; 
 }
 
 .header-login .uil-shopping-bag::after {
@@ -409,6 +409,8 @@ body{
 .mobile-open-btn {
   display: none;
 }
+/* ========Slide-banner=========== */
+
 
 /* ========Cart Box==================== */
 
