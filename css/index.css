@@ -350,6 +350,8 @@ body{
 
 .logo {
   margin-right: 2rem;
+  height: 100px;
+  width: 100px;
 }
 
 .mobile-close-btn {
@@ -364,13 +366,16 @@ body{
 }
 
 .primary-navigation .active {
-  color: #000000;
+  color: #F28118;
 }
 
 .primary-navigation a {
   text-decoration: none;
   color: hsl(var(--clr-black) / 0.6);
   cursor: pointer;
+}
+.primary-navigation a:hover{
+  color: #F28118;
 }
 
 .header-login {
@@ -392,12 +397,13 @@ body{
   font-weight: 700;
   color: hsl(var(--clr-white));
   margin-top: -3rem;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   border-radius: 0.3rem;
   display: grid;
   width: 1rem;
   height: 1.2rem;
   background-color: hsl(var(--clr-red));
+  padding-left: 5px;
 }
 
 .mobile-open-btn {
@@ -1547,4 +1553,6 @@ font-size: 1rem;
   .c-font{
     font-size: 1rem;
   }
+
+
 }

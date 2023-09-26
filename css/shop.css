@@ -191,7 +191,9 @@ button{
 .next-page i{
     font-size: 2.5rem;
 }
-
+.primary-navigation .active a:hover {
+  color: yellow;
+}
 .next-page > .active{
     padding: .5rem 1rem;
     border-radius: .5rem;
